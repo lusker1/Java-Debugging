@@ -10,7 +10,6 @@ public class RectAngleBug {
         System.out.print("Enter width: ");
         int width = in.nextInt();
         
-        // القانون المفروض: Area = length * width
         int area = length * width; 
         
         System.out.println("The area is: " + area);
