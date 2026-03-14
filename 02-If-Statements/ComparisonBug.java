@@ -1,3 +1,8 @@
+/*
+ * Exercise 1: Conditional Logic
+ * Goal: Fix comparison operators and flow control.
+ * Author: BinSaleh (lusker1)
+ */
 import java.util.Scanner;
 
 public class ComparisonBug {
