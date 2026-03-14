@@ -1,14 +1,16 @@
+/*
+ * Exercise 1: Loop Control
+ * Goal: Prevent infinite loops by managing counters.
+ * Author: BinSaleh (lusker1)
+ */
 public class InfiniteLoopBug {
     public static void main(String[] args) {
         int i = 1;
 
-        // المفروض يطبع من 1 إلى 5 ويوقف
         while (i <= 5) {
             System.out.println("Number: " + i );
-            ++i; 
+            ++i; //wee use i++ to stop Infinite 
             
-                // اللغم هنا
-            // نسينا شي يخلي الـ i تزيد؟ 
             
         }
     }
