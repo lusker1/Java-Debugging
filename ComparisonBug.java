@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class ComparisonBug {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int num1 = input.nextInt();
+
+        System.out.print("Enter second number: ");
+        int num2 = input.nextInt();
+
+        // التحدي هنا في شروط الـ If
+        if (num1 > num2) 
+            System.out.println(num1 + " is greater than " + num2);
+        
+        else if (num1 == num2) {
+            System.out.println("Both numbers are equal");
+        } 
+        
+        else {
+            System.out.println(num1 + " is smaller than " + num2);
+        }
+
+        input.close();
+    }
+}
