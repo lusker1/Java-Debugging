@@ -15,7 +15,6 @@ public class ComparisonBug {
         System.out.print("Enter second number: ");
         int num2 = input.nextInt();
 
-        // التحدي هنا في شروط الـ If
         if (num1 > num2) 
             System.out.println(num1 + " is greater than " + num2);
         
