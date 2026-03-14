@@ -1,3 +1,9 @@
+/*
+  Exercise 1: Syntax Fix
+  Goal: Fix missing semicolons and logical operators.
+  Author: BinSaleh (lusker1)
+ */
+
 import java.util.Scanner;
 
 public class RectAngleBug {
