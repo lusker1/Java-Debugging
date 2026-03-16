@@ -21,4 +21,4 @@ public class Exercise3 {
 
         System.out.println("Total: " + total);
     }
-}
+} 
